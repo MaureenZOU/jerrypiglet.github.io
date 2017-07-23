@@ -36,7 +36,8 @@ An emerging problem in computer vision is the reconstruction of 3D shape and pos
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jerrypiglet.github.io/publication/3dv2016/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://jerrypiglet.github.io/img/pubs/3dv2016.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://jerrypiglet.github.io/img/pubs/3dv2016.png&#34; alt=&#34;&#34; /&gt;
+&lt;strong&gt;Image credit to Chen Kong &lt;a href=&#34;http://www.cs.cmu.edu/~chenk//&#34; target=&#34;_blank&#34;&gt;http://www.cs.cmu.edu/~chenk//&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Inferring the motion and shape of non-rigid objects from images has been widely explored by Non-Rigid Structure from Motion (NRSfM) algorithms. Despite their promising results, they often utilize additional constraints about the camera motion (e.g. temporal order) and the deformation of the object of interest, which are not always provided in real-world scenarios. This makes the application of NRSfM limited to very few deformable objects (e.g. human face and body). In this paper, we propose the concept of Structure from Category (SfC) to reconstruct 3D structure of generic objects solely from images with no shape and motion constraint (i.e. prior-less). Similar to the NRSfM approaches, SfC involves two steps: (i) correspondence, and (ii) inversion. Correspondence determines the location of key points across images of the same object category. Once established, the inverse problem of recovering the 3D structure from the 2D points is solved over an augmented sparse shape-space model. We validate our approach experimentally by reconstructing 3D structures of both synthetic and natural images, and demonstrate the superiority of our approach to the state-of-the-art low-rank NRSfM approaches.&lt;/p&gt;
 </description>
