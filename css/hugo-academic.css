@@ -21,7 +21,7 @@
 }
 
 html {
-  font-family: 'Merriweather', serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
@@ -34,10 +34,10 @@ html {
 
 body {
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.85rem;
   line-height: inherit;
   color: inherit;
-  margin-top: 71px; /* Offset body content by navbar height. */
+  margin-top: 31px; /* Offset body content by navbar height. */
   padding-top: 0;
   counter-reset: captions;
 }
@@ -77,21 +77,21 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 1.6rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 h3 {
   font-weight: 700;
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+  margin-top: .5rem;
+  font-size: 1.05rem;
 }
 h4, h5, h6 {
   font-weight: 700;
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 a,
@@ -211,7 +211,7 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 110px 0 110px 0;
+  padding: 40px 0 40px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -259,7 +259,7 @@ blockquote p:last-child {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius: 5%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -430,7 +430,7 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.20rem;
 }
 
 .article-title a {
@@ -515,7 +515,7 @@ article {
 }
 
 .pub .pub-title {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .pub .pub-authors {
@@ -528,17 +528,17 @@ article {
 }
 
 .pub-list-item {
-  margin-bottom: 40px;
+  margin-bottom: 4px;
 }
 
 .pub-list-item .pub-abstract {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #3170A5;
 }
 
