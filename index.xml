@@ -11,12 +11,31 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Example Talk</title>
-      <link>https://jerrypiglet.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Rethinking Reprojection: Closing the Loop for Pose-aware Shape Reconstruction from a Single Image</title>
+      <link>https://jerrypiglet.github.io/publication/6dof/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jerrypiglet.github.io/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>https://jerrypiglet.github.io/publication/6dof/</guid>
+      <description>&lt;p&gt;An emerging problem in computer vision is the reconstruction of 3D shape and pose of an object from a single image. Hitherto, the problem has been addressed through the application of canonical deep learning methods to regress from the image directly to the 3D shape and pose labels. These approaches, however, are problematic from two perspectives. First, they are minimizing the error between 3D shapes and pose labels - with little thought about the nature of this ``label error&amp;rdquo; when reprojecting the shape back onto the image. Second, they rely on the onerous and ill-posed task of hand labeling natural images with respect to 3D shape and pose. In this paper we define the new task of pose-aware shape reconstruction from a single image, and we advocate that cheaper 2D annotations of objects silhouettes in natural images can be utilized. We design architectures of pose-aware shape reconstruction which reproject the predicted shape back on to the image using the predicted pose. Our evaluation on several object categories demonstrates the superiority of our method for predicting pose-aware 3D shapes from natural images.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Object-Centric Photometric Bundle Adjustment with Deep Shape Prior</title>
+      <link>https://jerrypiglet.github.io/publication/3dv2017/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jerrypiglet.github.io/publication/3dv2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure from Category: A Generic and Prior-less Approach</title>
+      <link>https://jerrypiglet.github.io/publication/3dv2016/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jerrypiglet.github.io/publication/3dv2016/</guid>
+      <description>&lt;p&gt;Inferring the motion and shape of non-rigid objects from images has been widely explored by Non-Rigid Structure from Motion (NRSfM) algorithms. Despite their promising results, they often utilize additional constraints about the camera motion (e.g. temporal order) and the deformation of the object of interest, which are not always provided in real-world scenarios. This makes the application of NRSfM limited to very few deformable objects (e.g. human face and body). In this paper, we propose the concept of Structure from Category (SfC) to reconstruct 3D structure of generic objects solely from images with no shape and motion constraint (i.e. prior-less). Similar to the NRSfM approaches, SfC involves two steps: (i) correspondence, and (ii) inversion. Correspondence determines the location of key points across images of the same object category. Once established, the inverse problem of recovering the 3D structure from the 2D points is solved over an augmented sparse shape-space model. We validate our approach experimentally by reconstructing 3D structures of both synthetic and natural images, and demonstrate the superiority of our approach to the state-of-the-art low-rank NRSfM approaches.&lt;/p&gt;
 </description>
     </item>
     
