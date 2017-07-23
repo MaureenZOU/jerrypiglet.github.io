@@ -407,6 +407,7 @@ article {
 
 .article-header {
   position: relative;
+  /*margin: 70px auto;*/
   clear: both;
 }
 
