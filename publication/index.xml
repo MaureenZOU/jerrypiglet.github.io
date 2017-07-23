@@ -11,22 +11,12 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://jerrypiglet.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>The Conditional Lucas &amp; Kanade Algorithm</title>
+      <link>https://jerrypiglet.github.io/publication/condlk/</link>
+      <pubDate>Tue, 11 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jerrypiglet.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://jerrypiglet.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://jerrypiglet.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>https://jerrypiglet.github.io/publication/condlk/</guid>
+      <description>&lt;p&gt;The Lucas &amp;amp; Kanade (LK) algorithm is the method of choice for efficient dense image and object alignment. The approach is efficient as it attempts to model the connection between appearance and geometric displacement through a linear relationship that assumes independence across pixel coordinates. A drawback of the approach, however, is its generative nature. Specifically, its performance is tightly coupled with how well the linear model can synthesize appearance from geometric displacement, even though the alignment task itself is associated with the inverse problem. In this paper, we present a new approach, referred to as the Conditional LK algorithm, which: (i) directly learns linear models that predict geometric displacement as a function of appearance, and (ii) employs a novel strategy for ensuring that the generative pixel independence assumption can still be taken advantage of. We demonstrate that our approach exhibits superior performance to classical generative forms of the LK algorithm. Furthermore, we demonstrate its comparable performance to state-of-the-art methods such as the Supervised Descent Method with substantially less training examples, as well as the unique ability to &amp;ldquo;swap&amp;rdquo; geometric warp functions without having to retrain from scratch. Finally, from a theoretical perspective, our approach hints at possible redundancies that exist in current state-of-the-art methods for alignment that could be leveraged in vision systems of the future.&lt;/p&gt;
 </description>
     </item>
     
