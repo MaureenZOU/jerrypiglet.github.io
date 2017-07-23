@@ -8,8 +8,6 @@
  *  Core
  **************************************************/
 
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
-
 *,
 *::after,
 *::before {
@@ -70,8 +68,7 @@ ul, ol, dl {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Tangerine', serif;
+h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -79,18 +76,24 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: bold;
   font-size: 1.6rem;
 }
 h2 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-weight: bold;
   margin-top: 1rem;
   font-size: 1.2rem;
 }
 h3 {
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   margin-top: .5rem;
   font-size: 1.05rem;
 }
 h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
   font-weight: 700;
   margin-top: 1rem;
   font-size: 0.8rem;
