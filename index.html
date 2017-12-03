@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+<IfModule mod_headers.c>
+   Header set X-Robots-Tag "noindex, nofollow, noarchive"
+   <FilesMatch "\.(doc|pdf|png|jpe?g|gif)$">
+     Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+   </FilesMatch>
+</IfModule>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
