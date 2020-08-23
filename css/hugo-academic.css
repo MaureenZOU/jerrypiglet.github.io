@@ -92,12 +92,19 @@ h3 {
   margin-top: .5rem;
   font-size: 1.05rem;
 }
-h4, h5, h6 {
+h4, h5 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   margin-top: 1rem;
   font-size: 0.8rem;
 }
+h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 50;
+  margin-top: .1rem;
+  font-size: 0.1px;
+}
+
 
 a,
 h3.article-title a:hover {
@@ -449,6 +456,19 @@ article {
 .article-title {
   font-size: 1.20rem;
 }
+
+
+.author {
+  font-size: 0.9rem;
+  color: #151515;
+}
+
+
+.paper {
+  font-size: 0.9rem;
+  color: #0D4F8B;
+}
+
 
 .article-title a {
   color: #151515;
